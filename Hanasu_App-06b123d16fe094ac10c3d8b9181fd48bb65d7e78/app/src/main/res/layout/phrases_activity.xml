@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_background"
+    android:parentActivityName="activity_main.xml"
+    >
+
+    <!-- Greetings activity -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_greetings"
+        >
+        <TextView
+            android:id="@+id/greetings"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Greetings"
+            />
+    </FrameLayout>
+
+
+    <!-- Conversation activity -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_conversation"
+        >
+        <TextView
+            android:id="@+id/conversation"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Conversation" />
+    </FrameLayout>
+
+
+    <!-- Politeness activity -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_politeness"
+        >
+        <TextView
+            android:id="@+id/politeness"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Politeness" />
+    </FrameLayout>
+
+
+    <!-- Questions activity -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_questions"
+        >
+        <TextView
+            android:id="@+id/questions"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Questions" />
+    </FrameLayout>
+
+
+    <!-- Compliments activity -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_compliments"
+        >
+        <TextView
+            android:id="@+id/compliments"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Compliments"/>
+    </FrameLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/phrases_wallpaper"
+        android:src="@drawable/background_japanbanner"/>
+
+</LinearLayout>
